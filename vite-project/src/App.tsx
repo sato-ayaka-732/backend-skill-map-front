@@ -1,11 +1,10 @@
 import { Routes, Route } from 'react-router-dom'
-import SkillCard from './component/SkillCard'
-import './App.css'
+import SkillMap from './pages/SkillMap'
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<SkillCard />} />
+      <Route path="/" element={<SkillMap />} />
     </Routes>
   )
 }
